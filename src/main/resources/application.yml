@@ -1,0 +1,7 @@
+micronaut:
+  function:
+    name: movie-processor
+
+jackson:
+  bean-introspection-module: true
+  date-format: "yyyy-MM-dd HH:mm:ss"
