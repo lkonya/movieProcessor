@@ -5,3 +5,8 @@ micronaut:
 jackson:
   bean-introspection-module: true
   date-format: "yyyy-MM-dd HH:mm:ss"
+  writeDatesAsTimestamps: false
+
+tmdb:
+  base-url: https://api.themoviedb.org/3
+  api-key:
